@@ -54,6 +54,7 @@ namespace API
             {
                 opt.AllowAnyHeader()
                     .AllowAnyMethod()
+                    .AllowCredentials()
                     .WithOrigins("http://localhost:3000");
             });
 
